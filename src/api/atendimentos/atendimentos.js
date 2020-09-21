@@ -1,7 +1,7 @@
 const restful = require("node-restful");
 const mongoose = restful.mongoose;
 
-const enderecoSchema = new mongoose.Schema({
+const atendimentoSchema = new mongoose.Schema({
   horaAtendimento: { type: String, required: true },
   descricao: { type: String, required: true },
   horaInicioAtuacao: { type: String, required: true },

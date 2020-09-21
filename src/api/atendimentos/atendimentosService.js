@@ -1,7 +1,7 @@
 const Atendimento = require("./atendimentos");
 
-Endereco.methods(["get", "post", "put", "delete"]);
+Atendimento.methods(["get", "post", "put", "delete"]);
 
-Endereco.updateOptions({ new: true, runValidators: true });
+Atendimento.updateOptions({ new: true, runValidators: true });
 
 module.exports = Atendimento;
